@@ -1,0 +1,25 @@
+# Игнорировать папки node_modules в client и server
+/client/node_modules/
+/server/node_modules/
+/node_modules/
+
+# Игнорировать файлы, созданные IDE или редакторами
+/.vscode/
+/.idea/
+
+# Игнорировать логи
+*.log
+
+# Игнорировать временные файлы и кэш
+*.tmp
+*.swp
+*.bak
+.DS_Store
+
+# Игнорировать файлы сборки и папки
+/dist/
+/build/
+
+# Игнорировать файл настроек npm
+package-lock.json
+yarn.lock
